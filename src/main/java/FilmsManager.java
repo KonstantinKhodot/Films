@@ -2,13 +2,13 @@ public class FilmsManager {
     private String[] films = new String[0];
     private int limit;
 
-    public FilmsManager(int limit) {
-        this.limit = limit;
-    }
-
     public FilmsManager() {
         this.limit = 10;
     }
+
+    public FilmsManager(int limit){
+            this.limit = limit;
+        }
 
     public void addFilm(String film) {
         String[] tmp = new String[films.length + 1];
