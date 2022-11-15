@@ -7,7 +7,7 @@ public class FilmsManager {
     }
 
     public FilmsManager(int limit){
-            this.limit = limit;
+        this.limit = limit;
         }
 
     public void addFilm(String film) {

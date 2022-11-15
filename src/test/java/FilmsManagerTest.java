@@ -40,7 +40,7 @@ public class FilmsManagerTest {
     }
 
     @Test
-    public void moreThanTheLimit() {
+    public void LimitIsMoreThanLength() {
         FilmsManager manager = new FilmsManager(11);
         manager.addFilm("film1");
         manager.addFilm("film2");
